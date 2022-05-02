@@ -1,0 +1,13 @@
+
+xjavascript:S2703"WAdd the "let", "const" or "var" keyword to this declaration of "i" to make it explicit.(Ó£Ìúÿÿÿÿ
+}javascript:S11721"aRemove the unused function parameter "jqXHR" or rename it to "_jqXHR" to make intention explicit.(·Ÿş„
+‡javascript:S11721"kRemove the unused function parameter "textStatus" or rename it to "_textStatus" to make intention explicit.(·Ÿş„
+‰javascript:S11721"mRemove the unused function parameter "errorThrown" or rename it to "_errorThrown" to make intention explicit.(·Ÿş„
+sjavascript:S4144h"WUpdate this function so that its implementation is not identical to the one on line 41.(ªÈëÇ
+}javascript:S1172p"aRemove the unused function parameter "jqXHR" or rename it to "_jqXHR" to make intention explicit.(·Ÿş„
+‡javascript:S1172p"kRemove the unused function parameter "textStatus" or rename it to "_textStatus" to make intention explicit.(·Ÿş„
+‰javascript:S1172p"mRemove the unused function parameter "errorThrown" or rename it to "_errorThrown" to make intention explicit.(·Ÿş„
+tjavascript:S4144¦"WUpdate this function so that its implementation is not identical to the one on line 41.(ªÈëÇ
+~javascript:S1172®"aRemove the unused function parameter "jqXHR" or rename it to "_jqXHR" to make intention explicit.(·Ÿş„
+ˆjavascript:S1172®"kRemove the unused function parameter "textStatus" or rename it to "_textStatus" to make intention explicit.(·Ÿş„
+Šjavascript:S1172®"mRemove the unused function parameter "errorThrown" or rename it to "_errorThrown" to make intention explicit.(·Ÿş„

@@ -1,8 +1,8 @@
 function autoInicioCategoria(){
     console.log("se esta ejecutando")
     $.ajax({
-        url:"http://132.226.242.58:8080/api/Category/all",
-        //url:"http://localhost:8080/api/Category/all",
+        //url:"http://132.226.242.58:8080/api/Category/all",
+        url:"http://localhost:8080/api/Category/all",
         type:"GET",
         datatype:"JSON",
         success:function(respuesta){
@@ -19,8 +19,8 @@ function autoInicioCategoria(){
 //Manejador GET
 function traerInformacionMaquina() {
     $.ajax({
-        url:"http://132.226.242.58:8080/api/Machine/all",
-        //url: "http://localhost:8080/api/Machine/all",
+        //url:"http://132.226.242.58:8080/api/Machine/all",
+        url: "http://localhost:8080/api/Machine/all",
         type: "GET",
         datatype: "JSON",
         success: function (response) {
@@ -62,8 +62,8 @@ function pintarMaquina(response){
 function cargarDatosMaquina(id) {
     $.ajax({
         dataType: 'json',
-        url:"http://132.226.242.58:8080/api/Machine/"+id,
-        //url: "http://localhost:8080/api/Machine/" + id,
+        //url:"http://132.226.242.58:8080/api/Machine/"+id,
+        url: "http://localhost:8080/api/Machine/" + id,
         type: 'GET',
 
         success: function (response) {
@@ -104,8 +104,8 @@ function agregarMaquina() {
             $.ajax({
                 type: "POST",
                 contentType: "application/json",
-                url:"http://132.226.242.58:8080/api/Machine/save",
-                //url: "http://localhost:8080/api/Machine/save",
+                //url:"http://132.226.242.58:8080/api/Machine/save",
+                url: "http://localhost:8080/api/Machine/save",
                 data: dataToSend,
                 datatype: 'json',
 
@@ -139,8 +139,8 @@ console.log(dataToSend);
         {
             dataType: 'json',
             data: dataToSend,
-            url:"http://132.226.242.58:8080/api/Machine/"+idElemento,
-            //url: "http://localhost:8080/api/Machine/" + idElemento,
+            //url:"http://132.226.242.58:8080/api/Machine/"+idElemento,
+            url: "http://localhost:8080/api/Machine/" + idElemento,
             type: 'DELETE',
             contentType: "application/JSON",
             success: function (response) {
@@ -185,8 +185,8 @@ function actualizar(idElemento) {
             datatype: 'json',
             data: dataToSend,
             contentType: "application/JSON",
-            url:"http://132.226.242.58:8080/api/Machine/update",
-            //url: "http://localhost:8080/api/Machine/update",
+            //url:"http://132.226.242.58:8080/api/Machine/update",
+            url: "http://localhost:8080/api/Machine/update",
             type: "PUT",
 
             success: function (response) {
